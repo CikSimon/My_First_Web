@@ -1,0 +1,45 @@
+body {
+    background: rgba(6, 45, 105, 0.699);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 10px solid #ccc;
+    padding: 50px;
+    /* ked chcem vytvorit prazdny priestor vo vnutri toho elementu, ked ho chcem odsadit od stran pouzijem padding */
+    /* margin: 50px;     ked vidim ze cele sa to lepi na hrany obrazovky, cele oramovanie tak pouzijem margin - ked to chcem odtlacit z vonka  */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+h1,
+h2 {
+    margin: 5px;
+    /* oddelim si nadpisi od seba, nech niesu na sebe take natlcene ale ani velmi daleko*/
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+
+
+h3 {
+    font-size: 30px;
+}
+
+img {
+    max-width: 1000px;
+}
+
+a {
+    color: bisque;
+}
+
+a:hover {
+    color: rgb(172, 49, 49);
+}
